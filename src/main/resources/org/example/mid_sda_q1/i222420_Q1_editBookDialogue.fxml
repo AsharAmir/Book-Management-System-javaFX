@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.mid_sda_q1.i222420_Q1_editBookController" spacing="10">
+    <padding>
+        <Insets top="20" right="20" bottom="20" left="20"/>
+    </padding>
+
+    <GridPane hgap="10" vgap="10">
+        <Label text="Title:" GridPane.columnIndex="0" GridPane.rowIndex="0"/>
+        <TextField fx:id="editTitleTextField" GridPane.columnIndex="1" GridPane.rowIndex="0"/>
+
+        <Label text="Author:" GridPane.columnIndex="0" GridPane.rowIndex="1"/>
+        <TextField fx:id="editAuthorTextField" GridPane.columnIndex="1" GridPane.rowIndex="1"/>
+
+        <Label text="ISBN:" GridPane.columnIndex="0" GridPane.rowIndex="2"/>
+        <TextField fx:id="editIsbnTextField" GridPane.columnIndex="1" GridPane.rowIndex="2"/>
+    </GridPane>
+
+    <HBox spacing="10" alignment="center">
+        <Button text="Save" onAction="#saveChanges"/>
+<!--        <Button text="Cancel" onAction="#closeDialog"/>-->
+    </HBox>
+</VBox>

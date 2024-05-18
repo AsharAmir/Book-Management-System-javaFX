@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="510.0" prefWidth="725.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.mid_sda_q1.i222420_Q1_editResultController">
+    <children>
+        <TableView fx:id="booksTable" layoutX="59.0" layoutY="131.0" prefHeight="311.0" prefWidth="622.0">
+            <columns>
+                <TableColumn fx:id="titleColumn" prefWidth="188.00001525878906" text="Title" />
+                <TableColumn fx:id="authorColumn" prefWidth="112.0" text="Author" />
+                <TableColumn fx:id="isbnColumn" minWidth="0.0" prefWidth="175.20004272460938" text="ISBN" />
+                <TableColumn fx:id="availabilityColumn" prefWidth="138.4000244140625" text="Availability" />
+            </columns>
+        </TableView>
+        <Text layoutX="221.0" layoutY="101.0" strokeType="OUTSIDE" strokeWidth="0.0" text="EDIT BOOK" textAlignment="CENTER" wrappingWidth="298.13673400878906">
+            <font>
+                <Font name="Century Gothic Bold" size="38.0" />
+            </font>
+        </Text>
+    </children>
+</AnchorPane>

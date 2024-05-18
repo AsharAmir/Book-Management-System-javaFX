@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="510.0" prefWidth="725.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.mid_sda_q1.i222420_Q1_searchBookController">
+    <children>
+        <VBox alignment="CENTER" layoutX="236.0" layoutY="150.0" spacing="10">
+            <Text text="BOOK SEARCH" wrappingWidth="230.63470458984375">
+            <font>
+               <Font name="System Bold" size="32.0" />
+            </font></Text>
+         <Text text="Input any of the below fields" textAlignment="CENTER" wrappingWidth="173.03466796875">
+            <font>
+               <Font name="System Italic" size="9.0" />
+            </font>
+         </Text>
+            <HBox spacing="10">
+                <Label text="Title:" />
+                <TextField fx:id="titleTextField" prefWidth="200" translateX="10.0" />
+            </HBox>
+            <HBox spacing="14">
+                <Label text="Author:" />
+                <TextField fx:id="authorTextField" prefWidth="200" translateX="-7.0" />
+            </HBox>
+            <HBox spacing="20">
+                <Label text="ISBN:" />
+                <TextField fx:id="isbnTextField" prefWidth="200" translateX="-1.0" />
+            </HBox>
+<!--            <Button text="Search" onAction="#handleSearchBooks" maxWidth="Infinity"/>-->
+            <Button fx:id="searchButton" onAction="#handleSearchQuery" maxWidth="Infinity" text="Search" />
+        </VBox>
+    </children>
+</AnchorPane>

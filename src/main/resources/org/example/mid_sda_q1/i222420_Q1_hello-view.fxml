@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<?import javafx.scene.layout.VBox?>
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="510.0" prefWidth="725.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.mid_sda_q1.i222420_Q1_HelloController">
+    <children>
+        <MenuBar layoutY="1.0" prefHeight="26.0" prefWidth="725.0">
+            <menus>
+                <Menu mnemonicParsing="false" text="File">
+                    <items>
+                        <MenuItem id="file_new_menu" mnemonicParsing="false" text="New" onAction="#handleNew" />
+                        <MenuItem id="file_open_menu" mnemonicParsing="false" text="Open" onAction="#handleOpen" />
+                        <MenuItem id="file_save_menu" mnemonicParsing="false" text="Save" onAction="#handleSave" />
+                        <MenuItem id="file_save_as_menu" mnemonicParsing="false" text="Save As" onAction="#handleSaveAs" />
+                        <MenuItem id="file_exit_menu" mnemonicParsing="false" text="Exit" onAction="#handleExit" />
+                    </items>
+                </Menu>
+                <Menu mnemonicParsing="false" text="Edit">
+                    <items>
+                        <MenuItem id="edit_add_menu" mnemonicParsing="false" text="Add Book" onAction="#handleAddBook" />
+                        <MenuItem id="edit_edit_menu" mnemonicParsing="false" text="Edit Book" onAction="#handleEditBook" />
+                        <MenuItem id="edit_delete_menu" mnemonicParsing="false" text="Delete Book" onAction="#handleDeleteBook" />
+                    </items>
+                </Menu>
+                <Menu mnemonicParsing="false" text="View">
+                    <items>
+                        <MenuItem id="view_all_menu" mnemonicParsing="false" text="View All Books" onAction="#handleViewAllBooks" />
+                        <MenuItem id="view_search_menu" mnemonicParsing="false" text="Search Books" onAction="#handleSearchBooks" />
+                    </items>
+                </Menu>
+            </menus>
+        </MenuBar>
+        <Label layoutX="60.0" layoutY="111.0" prefHeight="34.0" prefWidth="617.0" text="WELCOME TO THE BOOK MANAGEMENT SYSTEM" id="welcome_label">
+            <font>
+                <Font name="Cambria" size="27.0" />
+            </font>
+        </Label>
+<!--        <Label layoutX="73.0" layoutY="247.0" text="Quick Links" id="quick_links_label">-->
+<!--            <font>-->
+<!--                <Font size="14.0" />-->
+<!--            </font>-->
+<!--        </Label>-->
+<!--        <Label id="addBookQL" layoutX="74.0" layoutY="282.0" text="Add Book" textFill="#1e0fc4" onMouseClicked="#handleAddBook"/>-->
+<!--        <Label id="searchBookQL" layoutX="73.0" layoutY="296.0" text="Search Book" textFill="#1e0fc4" onMouseClicked="#handleSearchBooks"/>-->
+<!--        <VBox layoutY="27.0">-->
+<!--            <fx:include source="i222420_Q1_hellow-view_form.fxml" />-->
+<!--        </VBox>-->
+    </children>
+</AnchorPane>

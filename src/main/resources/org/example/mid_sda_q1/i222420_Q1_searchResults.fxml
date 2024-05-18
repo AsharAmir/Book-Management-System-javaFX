@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.mid_sda_q1.i222420_Q1_searchResultController">
+    <children>
+        <TableView fx:id="resultsTable" layoutX="15.0" layoutY="15.0" prefHeight="370.0" prefWidth="570.0">
+            <columns>
+                <TableColumn fx:id="titleColumn" prefWidth="190.0" text="Title" />
+                <TableColumn fx:id="authorColumn" prefWidth="190.0" text="Author" />
+                <TableColumn fx:id="isbnColumn" prefWidth="190.0" text="ISBN" />
+            </columns>
+        </TableView>
+    </children>
+</AnchorPane>

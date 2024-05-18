@@ -1,0 +1,16 @@
+<!--<?xml version="1.0" encoding="UTF-8"?>-->
+
+<!--<?import javafx.scene.control.Label?>-->
+<!--<?import javafx.scene.control.Menu?>-->
+<!--<?import javafx.scene.control.MenuBar?>-->
+<!--<?import javafx.scene.control.MenuItem?>-->
+<!--<?import javafx.scene.layout.AnchorPane?>-->
+<!--<?import javafx.scene.text.Font?>-->
+
+
+<!--<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="510.0" prefWidth="725.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.mid_sda_q1.i222420_Q1_HelloController">-->
+<!--    <children>-->
+<!--            <Label id="addBookQL" layoutX="74.0" layoutY="282.0" text="Add Book" textFill="#1e0fc4" onMouseClicked="#handleAddBook"/>-->
+<!--            <Label id="searchBookQL" layoutX="73.0" layoutY="296.0" text="Search Book" textFill="#1e0fc4" onMouseClicked="#handleSearchBooks"/>-->
+<!--    </children>-->
+<!--</AnchorPane>-->
